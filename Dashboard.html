@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex">
+        <!-- SIDEBAR -->
+        <div class="w-full h-309 bg-[#001D21]   flex flex-col justify-between ">
+            <div>
+                <div class="flex items-center p-3">
+                    <img src="ShipTrackLogo.png" alt="image" class="w-12 h-12 rounded-lg">
+                    <h1 class="font-bold text-lg text-[#C9E1E1] pl-1">Shiptrack</h1>
+                </div>
+                <hr class="border-gray-500 w-full">
+                <div class="flex flex-col p-4 text-[#85969A] text-[18px] font-medium gap-1">
+                    <p class=" hover:bg-[#263F43] p-2 rounded-lg">Dashboard</p>
+                    <p class=" hover:bg-[#263F43] p-2 rounded-lg">Shipments</p>
+                    <p class=" hover:bg-[#263F43] p-2 rounded-lg">Orders</p>
+                    <p class=" hover:bg-[#263F43] p-2 rounded-lg">Clients</p>
+                    <p class=" hover:bg-[#263F43] p-2 rounded-lg">Fleet management</p>
+                    <p class=" hover:bg-[#263F43] p-2 rounded-lg">Warehousing</p>
+                    <p class=" hover:bg-[#263F43] p-2 rounded-lg">Reports & analytics</p>
+                    <p class=" hover:bg-[#263F43] p-2 rounded-lg">Biling & payments</p>
+                    <p class=" hover:bg-[#263F43] p-2 rounded-lg">Security</p>
+                    <p class=" hover:bg-[#263F43] p-2 rounded-lg">Preferences</p>
+                </div>
+            </div>
+            <div class="font-normal  text-gray-500">
+                <div class="p-4 gap-3 flex flex-col">
+                    <p>Settings</p>
+                    <p>User management</p>
+                    <p>Help & support</p>
+                </div>
+                <hr class="border-gray-500 w-full">
+                <div class="flex items-center gap-2 p-3">
+                    <img src="Pic1.png" alt="image" class="w-10 h-10 rounded-full object-cover">
+                    <h1 class="flex flex-col">Denzel Washington<span class="text-[12px] text-gray-500">Admin</span></h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN -->
+
+        <div class="w-300 h-screen flex flex-col bg-[#F1F7F5]">
+            <div class="flex justify-between items-center p-4">
+                <h1 class=" font-bold text-[#272D2B] text-lg">Dashboard </h1>
+                <div class="flex gap-2">
+                    <input type="text" placeholder="Search..."
+                        class=" h-10 w-60 border bg-white border-gray-300 rounded-lg p-2.5 font-normal text-sm focus:ring focus:ring-gray-300 focus:outline-none">
+                    <span class="h-10 w-10 border bg-white border-gray-300 rounded-lg"><img src="Bell.png" alt="image"
+                            class="w-5 h-5 m-2"></span>
+                </div>
+            </div>
+            <hr class="border-gray-500 w-full border">
+            <div class="flex gap-5 p-4 bg-[#F3F5F3] justify-center">
+                <div class="bg-white border-2 border-gray-300 p-3 w-74 h-38 rounded-lg">
+                    <p class="w-10 h-10 bg-white border-2 border-gray-300 rounded-lg p-2">
+                        <img src="Bell.png" alt="image" class="w-5 h-5">
+                    <div class="flex ">
+                        <h1 class="mt-5 text-[#6D7170] font-normal ">Total shipments</h1>
+                        <!-- <img src="menu (1).png" alt="image" class="w-6 h-6   border-2 rounded-lg ml-32"> -->
+                    </div>
+                    <p class="text-3xl text-[#424949] font-bold">500</p>
+                    </p>
+                </div>
+                <div class="bg-white border-2 border-gray-300 p-3 w-74 h-38 rounded-lg">
+                    <p class="w-10 h-10 bg-white border-2 border-gray-300 rounded-lg p-2">
+                        <img src="Bell.png" alt="image" class="w-5 h-5">
+                    <div class="flex ">
+                        <h1 class="mt-5 text-[#6D7170] font-normal ">Pending Orders</h1>
+                        <!-- <img src="menu (1).png" alt="image" class="w-6 h-6   border-2 rounded-lg ml-32"> -->
+                    </div>
+                    <p class="text-3xl text-[#424949] font-bold">15</p>
+                    </p>
+                </div>
+                <div class="bg-white border-2 border-gray-300 p-3 w-74 h-38 rounded-lg">
+                    <p class="w-10 h-10 bg-white border-2 border-gray-300 rounded-lg p-2">
+                        <img src="Bell.png" alt="image" class="w-5 h-5">
+                    <div class="flex ">
+                        <h1 class="mt-5 text-[#6D7170] font-normal ">Revenue</h1>
+                        <!-- <img src="menu (1).png" alt="image" class="w-6 h-6   border-2 rounded-lg ml-32"> -->
+                    </div>
+                    <p class="text-3xl text-[#424949] font-bold">$50,000</p>
+                    </p>
+                </div>
+                <div class="bg-white border-2 border-gray-300 p-3 w-74 h-38 rounded-lg">
+                    <p class="w-10 h-10 bg-white border-2 border-gray-300 rounded-lg p-2">
+                        <img src="Bell.png" alt="image" class="w-5 h-5">
+                    <div class="flex ">
+                        <h1 class="mt-5 text-[#424949] font-normal ">Total Clients</h1>
+                        <!-- <img src="menu (1).png" alt="image" class="w-6 h-6   border-2 rounded-lg ml-32"> -->
+                    </div>
+                    <p class="text-3xl text-[#424949] font-bold">120</p>
+                    </p>
+                </div>
+            </div>
+            <hr class="border-gray-900 w-full border-2">
+            <div class="bg-white w-full h-150 flex flex-col">
+                <div class="p-4">
+                    <h1 class="font-bold text-[#424949] text-lg">Client activity</h1>
+                    <div class="flex gap-5 pt-5">
+                        <div>
+                            <p class="font-bold text-[#424949] text-xl">5</p>
+                            <h1 class="font-medium text-[#6D7170] text-sm">New clients(this week)</h1>
+                        </div>
+                        <div>
+                            <p class="font-bold text-[#424949] text-xl">12</p>
+                            <h1 class="font-medium text-[#6D7170] text-sm">Active vehicles</h1>
+                        </div>
+                    </div>
+                    <hr class="border-gray-900 w-full border-2 mt-5">
+                </div>
+                <div class="pl-4 flex">
+                    <div>
+                        <h1 class="bg-white w-30 h-10 rounded-lg border-2 text-[#6D7170] border-gray-300 p-1.5 shadow-xl">Recent
+                            clients</h1>
+                    </div>
+                    <div class="flex items-center">
+                        <h1 class="bg-[#F1F7F5] w-30 h-9 text-[#6D7170] p-1.5">Order activity</h1>
+                        <h1 class="bg-[#F1F7F5] w-40 h-9 text-[#6D7170] rounded-r-lg p-1.5">Client engagement</h1>
+                    </div>
+                </div>
+                <div class="grid grid-cols-8 font-semibold grid-rows-6 text-center w-[98%] text-[#4C5854] mx-auto mt-5 shadow-md">
+                    <div class="col-span-8 row-span-1 grid-cols-8 grid rounded-lg bg-[#F2F8F6] items-center">
+                        <p>Client ID</p>
+                        <p>Client name</p>
+                        <p>Email</p>
+                        <p>Phone number</p>
+                        <p>Sign-up Date</p>
+                        <p>Account Type</p>
+                        <p>Status</p>
+                        <p>Actions </p>
+                    </div>
+
+
+                    <div class="col-span-8 row-span-5 grid-cols-8 grid mt-5 space-y-5 ">
+                        <p><input type="checkbox">#001</p>
+                        <p>Ramzan</p>
+                        <p>ramzan@gmail.com</p>
+                        <p>1234567890</p>
+                        <p>2023-09-14</p>
+                        <p>Premium</p>
+                        <p>Active</p>
+                        <div class="">
+                            <a class="inline-block border-2 rounded-lg w-10 h-7 text-center "> Edit</a>
+                            <a class="inline-block border-2 rounded-lg w-15 h-7 text-center "> Delete </a>
+                        </div>
+
+                        <p><input type="checkbox">#002</p>
+                        <p>Yaseen</p>
+                        <p>yaseen@gmail.com</p>
+                        <p>1234567890</p>
+                        <p>2023-09-14</p>
+                        <p>Premium</p>
+                        <p>Active</p>
+                        <div class="">
+                            <a class="inline-block border-2 rounded-lg w-10 h-7 text-center "> Edit</a>
+                            <a class="inline-block border-2 rounded-lg w-15 h-7 text-center "> Delete </a>
+                        </div>
+
+                        <p><input type="checkbox">#003</p>
+                        <p>Kazim</p>
+                        <p>kazim@gmail.com</p>
+                        <p>1234567890</p>
+                        <p>2023-09-14</p>
+                        <p>Regular</p>
+                        <p>Pending</p>
+                        <div class="">
+                            <a class="inline-block border-2 rounded-lg w-10 h-7 text-center "> Edit</a>
+                            <a class="inline-block border-2 rounded-lg w-15 h-7 text-center "> Delete </a>
+                        </div>
+
+                        <p><input type="checkbox">#004</p>
+                        <p>Vishesh</p>
+                        <p>vishesh@gmail.com</p>
+                        <p>1234567890</p>
+                        <p>2023-09-14</p>
+                        <p>Premium</p>
+                        <p>Active</p>
+                        <div class="">
+                            <a class="inline-block border-2 rounded-lg w-10 h-7 text-center "> Edit</a>
+                            <a class="inline-block border-2 rounded-lg w-15 h-7 text-center "> Delete </a>
+                        </div>
+
+                        <p><input type="checkbox">#005</p>
+                        <p>Ubaid</p>
+                        <p>ubaid@gmail.com</p>
+                        <p>1234567890</p>
+                        <p>2023-09-14</p>
+                        <p>Regular</p>
+                        <p>Pending</p>
+                        <div class="">
+                            <a class="inline-block border-2 rounded-lg w-10 h-7 text-center "> Edit</a>
+                            <a class="inline-block border-2 rounded-lg w-15 h-7 text-center "> Delete </a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-gray-900 w-[98%]  mx-auto border-2">
+                <div class="bg-white w-full h-150 flex flex-col">
+                    <div class="p-4">
+                        <h1 class="font-bold text-[#424949] text-lg">Fleet Status</h1>
+                        <div class="flex gap-5 pt-5">
+                            <div>
+                                <p class="font-bold text-[#424949] text-xl">50</p>
+                                <h1 class="font-medium text-[#6D7170] text-sm">Total vehicles</h1>
+                            </div>
+                            <div>
+                                <p class="font-bold text-[#424949] text-xl">35</p>
+                                <h1 class="font-medium text-[#6D7170] text-sm">Active vehicles</h1>
+                            </div>
+                            <div>
+                                <p class="font-bold text-[#424949] text-xl">15</p>
+                                <h1 class="font-medium text-[#6D7170] text-sm">Inactive vehicles</h1>
+                            </div>
+                        </div>
+                        <hr class="border-gray-900 w-full border-2 mt-5">
+                    </div>
+                    <div
+                        class="grid grid-cols-7 font-semibold grid-rows-6 text-center w-[98%] text-[#4C5854] mx-auto mt-2 shadow-md bg-white">
+                        <div class="col-span-7 row-span-1 grid-cols-7 grid rounded-lg bg-[#F2F8F6] items-center">
+                            <p>Vehicle ID</p>
+                            <p>Vehicle type</p>
+                            <p>Current location</p>
+                            <p>Last maintenance</p>
+                            <p>Status</p>
+                            <p>Distance (in miles)</p>
+                            <p>Fuel level (%)</p>
+                        </div>
+
+                        <div class="col-span-7 row-span-5 grid-cols-7 grid mt-5 space-y-5 ">
+                            <p><input type="checkbox">#V001</p>
+                            <p>Truck</p>
+                            <p>Warehouse A</p>
+                            <p>2023-09-14</p>
+                            <p>In service</p>
+                            <p>3,500</p>
+                            <p>85%</p>
+
+                            <p><input type="checkbox">#V002</p>
+                            <p>Van</p>
+                            <p>Route 1</p>
+                            <p>2023-09-14</p>
+                            <p>En route</p>
+                            <p>1,200</p>
+                            <p>70%</p>
+
+                            <p><input type="checkbox">#V003</p>
+                            <p>Truck</p>
+                            <p>Warehouse B</p>
+                            <p>2023-09-14</p>
+                            <p>In service</p>
+                            <p>4,000</p>
+                            <p>90%</p>
+
+                            <p><input type="checkbox">#V004</p>
+                            <p>Ship</p>
+                            <p>Port 2</p>
+                            <p>2023-09-14</p>
+                            <p>Out os service</p>
+                            <p>-</p>
+                            <p>-</p>
+
+
+                            <p><input type="checkbox">#V005</p>
+                            <p>Van</p>
+
+                            <p>Route 3</p>
+                            <p>2023-09-14</p>
+                            <p>In service</p>
+                            <p>1,800</p>
+                            <p>75%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</body>
+
+</html>
